@@ -21,7 +21,7 @@ function equation(num) {
     if (word[i] == "eight") word[i] = 8;
     if (word[i] == "nine") word[i] = 9;
   }
-  return eval(word.join(""))
+  return eval(word.join(""));
 }
 console.log(equation("one + one"));
 console.log(equation("seven * four - two"));
