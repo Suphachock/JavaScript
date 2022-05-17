@@ -4,7 +4,6 @@ function numInStr(arr) {
     if (arr[key].includes(0 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9)) {
       x.push(arr[key]);
     }
-    console.log(key);
   }
   return x;
 }
